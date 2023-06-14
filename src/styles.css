@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    color: #555;
+}
+
+.container {
+    position: absolute;
+    left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border: thin solid #e4e4e4;
+    padding: 15px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: thin solid #e4e4e4;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #555;
+}
+
+form button {
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 2.5em;
+    margin-bottom: 0.125rem;
+}
+
+.center{
+    text-align: center;
+}
+
+#events{
+    font-size: 20px;
+    padding: 15px;
+    width:  100%;
+    cursor: pointer;
+}
+
+#fullDate{
+    font-size: 22px;
+    border: none;
+    padding: 15px;
+    width:  100%;
+    cursor: pointer;
+}
+
+.hebrew {
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    min-height: 50%;
+    box-sizing: border-box;
+    border: thin solid #e4e4e4;
+    background-color: white;
+    color: #555;
+}
+
+.page{
+    justify-content: space-between;
+    grid-gap: 100px;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
